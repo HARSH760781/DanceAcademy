@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 67px;
+    display: flex;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 46px;
+}
+
+.logo h2 {
+    margin: 13px;
+    padding-top: 7px;
+}
+
+.menu img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+.close img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    right: 10%;
+    position: absolute;
+    z-index: 10;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 100%;
+    padding: 10px;
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.body1 {
+    background: rgb(236 228 228);
+    min-height: 1100px;
+}
+
+.body1 p {
+    width: 70%;
+    font-size: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    position: relative;
+    left: 11%;
+    right: 0%;
+}
+
+.content {
+    width: 80%;
+    height: 30%;
+    border: 5px solid red;
+    position: relative;
+    left: 10%;
+    top: 100px;
+    font-size: larger;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.img img {
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+}
+
+#footer {
+    background: gray;
+    height: auto;
+    width: 100%;
+}
+
+#footer .nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90%;
+    padding-top: 10px;
+    text-align: center;
+    padding: 5% auto;
+}
+
+#footer .nav3 p {
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    overflow-x: auto;
+}
+
+@media screen and (max-width:548px) {
+    #navbar ul {
+        display: none;
+    }
+    .menu img {
+        display: inline;
+        z-index: 10;
+    }
+    .close img {
+        display: none;
+        z-index: 11;
+    }
+    .img img {
+        width: 100px;
+        height: 150px;
+    }
+}

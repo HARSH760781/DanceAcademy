@@ -1,0 +1,132 @@
+@media screen and (max-width:445px) {
+    #footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 67px;
+    display: flex;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    left: 33px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 46px;
+}
+
+.logo h2 {
+    margin: 13px;
+    padding-top: 7px;
+}
+
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.body {
+    background: rgb(236 228 228);
+    min-height: 1100px;
+}
+
+.close img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+.content {
+    width: 80%;
+    height: 30%;
+    border: 5px solid red;
+    position: relative;
+    left: 10%;
+    top: 100px;
+    font-size: larger;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 700px;
+    height: 300px;
+    top: 40px;
+    position: relative;
+}
+
+.moment {
+    width: 80%;
+    height: 30%;
+    border: 5px solid red;
+    position: relative;
+    left: 10%;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    top: 150px;
+    padding: 20px;
+}
+
+#footer {
+    background: gray;
+    height: 50px;
+}
+
+#footer .nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 10px;
+}

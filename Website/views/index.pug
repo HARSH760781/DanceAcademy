@@ -1,0 +1,64 @@
+doctype html
+html
+    head
+        style
+            include ../static/style.css
+    body
+
+        nav#navbar 
+            .container 
+                .logo 
+                    img(src="../static/logo.jpg" alt="Sorry")
+                    h2 HDA
+            .menu 
+                img(src="../static/menu.png", alt="")
+            .close 
+                img(src="../static/close.png", alt="")  
+            ul
+                li #[a(href = '/home') Home]
+                li #[a(href = '/about') About]
+                li #[a(href = '/services') Service]
+                li #[a(href = '/join') Join Class]
+                li #[a(href = '/contact') Contact us]
+
+             
+        section#introimage
+            .slogan  Welcome to Harsh Dance Academy 
+                .slogan1 Eat Sleep and dance repeat
+        section#Ourmission 
+            h1 Our Mission 
+            .mission 
+                div.cards
+                    h3 Dance Performance 
+                    .nav1
+                        .cardbox 
+                            img(src="../static/step1..jpg" alt="Sorry") 
+                        .content 
+                            p This is the best dance academy in the Delhi.
+                div.cards 
+                    h3 Dance the way you like 
+                    .nav1
+                        .cardbox 
+                            img(src="../static/step2..jpg" alt="Sorry") 
+                        .content 
+                            p Learn what you want.
+                div.cards    
+                    h3 Expert Trainings
+                    .nav1
+                        .cardbox 
+                            img(src="../static/step3.jpg" alt="Sorry") 
+                        .content 
+                            p Get in touch with your scenior and expert.
+        section#Sponser 
+            h1 Our Sponsers
+            .nav2
+                img(src="../static/sponser1.jpg" alt="Sorry")
+                img(src="../static/sponser2.jpg" alt="Sorry")
+                img(src="../static/sponser3.png" alt="Sorry")
+                img(src="../static/sponser4.png" alt="Sorry")
+
+        section#footer
+            .nav3 
+                p Copyright 2018,&copy;HarshDanceAcademy.com
+        script
+            include ../static/index.js

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 67px;
+    display: flex;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 46px;
+}
+
+.logo h2 {
+    margin: 13px;
+    padding-top: 7px;
+}
+
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 100%;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+.close img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Supermercado One', cursive;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* text-align: center; */
+    margin: 10px auto;
+    height: 35px;
+    border-radius: 12px;
+    padding-left: 15px;
+}
+
+.btn {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn button {
+    height: 30px;
+    border: 2px solid black;
+    width: 115px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footer {
+    background: gray;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#footer .nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90%;
+    padding-top: 2%;
+    text-align: center;
+    padding: 5% auto;
+}
+
+#footer .nav3 p {
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    overflow-x: auto;
+}
+
+@media screen and (max-width:546px) {
+    .menu img {
+        display: inline;
+        z-index: 10;
+    }
+    .close img {
+        display: none;
+        z-index: 11;
+    }
+    #navbar ul {
+        display: none;
+    }
+    h1 {
+        font-size: 100%;
+    }
+    #footer .nav3 {
+        padding-top: 5%;
+    }
+}

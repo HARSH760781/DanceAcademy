@@ -1,0 +1,24 @@
+{
+    "name": "hda",
+    "version": "1.0.0",
+    "description": "This is a dance academy website",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "harsh bhai",
+    "license": "ISC",
+    "engines": {
+        "node": "16.13.1"
+    },
+    "dependencies": {
+        "express": "^4.17.2",
+        "mongodb": "^4.5.0",
+        "mongoose": "^6.2.0",
+        "nodemon": "^2.0.15",
+        "parser": "^0.1.4",
+        "pug": "^3.0.2",
+        "start": "^5.1.0"
+    }
+}
