@@ -4,14 +4,13 @@ const app = express()
 const mongoose = require('mongoose');
 const json = require('express');
 mongoose.connect("mongodb+srv://Harsh760781:12345yuiop@cluster0.7wegz.mongodb.net/contactDance", { useNewUrlParser: true, useUnifiedTopology: true });
-// mongoose.connect("mongodb://localhost:27017", { useNewUrlParser: true, useUnifiedTopology: true });
-
-//Define mongoose Schema......
+// mongoose.connect("mongodb://localhost:27017/contactDance");
+// 
+// Define mongoose Schema......
 
 var ContactSchema = new mongoose.Schema({
     name: String,
     Age: Number,
-
     Address: String,
     Email: String,
     tel: Number
@@ -56,12 +55,17 @@ app.post('/contact', (req, res) => {
         })
 });
 
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log("The website is started successfully");
 });
 
 // app.listen(80, () => {
-//     console.log(`The website is started successfully on 80`);
+//     console.log("The website is started successfully on 80");
 // });
+
+// app.get("/", (req,res) => {
+//     res.send('')
+// });
+// app.listen(3000)
