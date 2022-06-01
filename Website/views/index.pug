@@ -1,9 +1,16 @@
-doctype html
-html
+//- doctype html
+//- html
     head
         style
             include ../static/style.css
     body
+extends base.pug
+
+block style 
+  style
+    include ../static/style.css
+
+block content
 
         nav#navbar 
             .container 
@@ -56,9 +63,5 @@ html
                 img(src="../static/sponser2.jpg" alt="Sorry")
                 img(src="../static/sponser3.png" alt="Sorry")
                 img(src="../static/sponser4.png" alt="Sorry")
-
-        section#footer
-            .nav3 
-                p Copyright 2018,&copy;HarshDanceAcademy.com
         script
             include ../static/index.js

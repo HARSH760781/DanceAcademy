@@ -1,444 +1,447 @@
-                        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Mochiy+Pop+P+One&family=Roboto:wght@500&family=Supermercado+One&display=swap');
-                        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-                        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Supermercado+One&display=swap');
-                        @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@500&family=Supermercado+One&display=swap');
-                        * {
-                            margin: 0;
-                            padding: 0;
-                        }
-                        
-                        #navbar {
-                            height: 67px;
-                            display: flex;
-                            background: red;
-                            justify-content: center;
-                            align-items: center;
-                            font-family: 'Roboto', sans-serif;
-                            width: 100%;
-                            position: relative;
-                        }
-                        
-                        .menu img {
-                            position: absolute;
-                            right: 25px;
-                            height: 60%;
-                            width: 8%;
-                            top: 25%;
-                            display: none;
-                        }
-                        
-                        .container {
-                            position: absolute;
-                            display: flex;
-                            left: 13px;
-                        }
-                        
-                        .logo {
-                            display: flex;
-                            align-items: center;
-                        }
-                        
-                        .logo img {
-                            width: 30px;
-                            height: 46px;
-                        }
-                        
-                        .logo h2 {
-                            margin: 13px;
-                            padding-top: 7px;
-                        }
-                        
-                        #navbar ul {
-                            display: flex;
-                            text-decoration: none;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                        
-                        #navbar ul li {
-                            color: white;
-                            list-style: none;
-                            font-size: 20px;
-                            padding: 10px;
-                        }
-                        
-                        .close img {
-                            position: absolute;
-                            right: 25px;
-                            height: 60%;
-                            width: 8%;
-                            top: 25%;
-                            display: none;
-                        }
-                        
-                        #navbar ul li a {
-                            text-decoration: none;
-                            color: white;
-                        }
-                        
-                        #navbar ul li a:hover {
-                            color: black;
-                            font-weight: bold;
-                        }
-                        
-                        #introimage {
-                            background: yellow;
-                            height: 300px;
-                            background: center / cover no-repeat url("/static/bg2.jpg");
-                            display: flex;
-                            justify-content: center;
-                            width: 100%;
-                        }
-                        
-                        #introimage .slogan {
-                            color: white;
-                            font-size: 40px;
-                            font-weight: bold;
-                            text-align: center;
-                            display: flex;
-                            align-items: center;
-                            margin: 3px;
-                            flex-direction: column;
-                            justify-content: center;
-                            font-family: 'Supermercado One', cursive;
-                        }
-                        
-                        #introimage .slogan1 {
-                            color: white;
-                            font-size: 22px;
-                            font-weight: bold;
-                            text-align: center;
-                            display: flex;
-                            align-items: center;
-                            font-family: 'Supermercado One', cursive;
-                            opacity: 500;
-                            margin: 3px;
-                        }
-                        
-                        #Ourmission {
-                            background: rgba(213, 243, 213, 0.781);
-                            height: 330px;
-                            width: 100%;
-                        }
-                        
-                        #Ourmission h1 {
-                            text-align: center;
-                            font-size: 30px;
-                            margin: 0px;
-                            padding-top: 5px;
-                            color: red;
-                        }
-                        
-                        .mission {
-                            display: flex;
-                            justify-content: center;
-                        }
-                        
-                        .cards {
-                            display: flex;
-                            flex-direction: column;
-                            height: 15rem;
-                            width: 20rem;
-                            border: 10px solid black;
-                            border-radius: 10px;
-                            margin: auto 10px;
-                        }
-                        
-                        .cards h3 {
-                            margin: 10px;
-                            text-align: center;
-                            font-size: 25px;
-                            font-family: 'Supermercado One', cursive;
-                            /* width: 100vw; */
-                        }
-                        
-                        .nav1 {
-                            display: flex;
-                            /* border: 2px solid blue; */
-                        }
-                        
-                        .cardbox img {
-                            width: 133px;
-                            height: 171px;
-                            /* border: 2px solid black; */
-                            border-radius: 5px;
-                            margin: 3px 20px;
-                            z-index: 0;
-                        }
-                        
-                        .content {
-                            /* border: 2px solid red; */
-                            width: 239px;
-                            height: 51px;
-                            position: relative;
-                            top: 54px;
-                            font-size: 20px;
-                            display: flex;
-                            left: 10px;
-                            font-family: 'Supermercado One', cursive;
-                        }
-                        
-                        #Sponser {
-                            background: rgb(233, 205, 153);
-                        }
-                        
-                        #Sponser h1 {
-                            text-align: center;
-                            padding-top: 25px;
-                            padding-bottom: 0px;
-                            font-family: 'Supermercado One', cursive;
-                            font-size: 40px;
-                            color: red;
-                        }
-                        
-                        #Sponser .nav2 {
-                            height: 187px;
-                            max-width: 840px;
-                            margin: auto;
-                        }
-                        
-                        #Sponser .nav2 img {
-                            width: 130px;
-                            height: 130px;
-                            margin: 40px;
-                        }
-                        
-                        #footer {
-                            background: gray;
-                            height: auto;
-                        }
-                        
-                        #footer .nav3 {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            font-size: 27px;
-                            font-weight: bold;
-                            padding-top: 10px;
-                        }
-                        /* Mobile Responsiveness */
-                        
-                        @media screen and (max-width: 235px) {
-                            html {
-                                max-width: 100%;
-                                max-height: 100%;
-                            }
-                            .container {
-                                position: absolute;
-                                display: flex;
-                                left: 5%;
-                            }
-                            #navbar ul {
-                                display: none;
-                            }
-                            .cards {
-                                width: 84%;
-                                /* font-size: ;s */
-                                position: relative;
-                                left: 100%;
-                            }
-                            .cardbox img {
-                                width: 50%;
-                                height: 100%;
-                            }
-                            .content {
-                                position: relative;
-                                top: 0px;
-                                left: -7px;
-                            }
-                            #Sponser .nav2 {
-                                display: flex;
-                                width: 90%;
-                                overflow: auto;
-                            }
-                            #Sponser .nav2 img {
-                                height: 150px;
-                                width: 300px;
-                                margin: auto 10px;
-                            }
-                            .mission {
-                                display: flex;
-                                justify-content: center;
-                                width: 100%;
-                                overflow-x: auto;
-                                overflow-y: hidden;
-                            }
-                            .menu img {
-                                display: inline;
-                                z-index: 10;
-                            }
-                            .close img {
-                                display: none;
-                                z-index: 11;
-                            }
-                            #footer .nav3 {
-                                font-size: 100%;
-                                text-align: center;
-                                overflow-x: auto;
-                            }
-                        }
-                        
-                        @media (max-width: 430px) and (min-width: 235px) {
-                            html {
-                                max-width: 100%;
-                                max-height: 100%;
-                            }
-                            #navbar ul {
-                                display: none;
-                            }
-                            #navbar ul li {
-                                right: 0;
-                                position: relative;
-                                top: 0%;
-                                width: 50%;
-                                padding: 10;
-                            }
-                            .menu img {
-                                display: inline;
-                                z-index: 10;
-                            }
-                            .close img {
-                                display: none;
-                                z-index: 9;
-                            }
-                            .cards {
-                                width: 90%;
-                                margin: 2% 2%;
-                            }
-                            .cardbox img {
-                                width: 60%;
-                                height: 60%;
-                            }
-                            .cardbox {
-                                height: 150%;
-                            }
-                            .content {
-                                left: 0px;
-                            }
-                            #Sponser .nav2 {
-                                display: flex;
-                                width: 90%;
-                                overflow: auto;
-                            }
-                            #Sponser .nav2 img {
-                                height: 150px;
-                                width: 300px;
-                                margin: auto 10px;
-                            }
-                            .mission {
-                                display: flex;
-                                flex-direction: column;
-                            }
-                            #Ourmission {
-                                height: auto;
-                            }
-                            #footer .nav3 {
-                                font-size: 100%;
-                                text-align: center;
-                            }
-                        }
-                        /* Desktop responsive   */
-                        
-                        @media screen and (max-width:625px) and (min-width: 429px) {
-                            .container {
-                                width: 96%;
-                                font-size: 15px;
-                                left: 10px;
-                            }
-                            #navbar ul {
-                                right: 5%;
-                                position: absolute;
-                                top: 35%;
-                            }
-                            #navbar ul li {
-                                font-size: 15px;
-                                padding: 3px;
-                            }
-                            #Ourmission {
-                                height: auto;
-                                width: 100%;
-                            }
-                            #Ourmission h1 {
-                                padding: 5%;
-                            }
-                            .mission {
-                                flex-direction: column;
-                            }
-                            .cards {
-                                width: 90%;
-                                margin: 10px 3%;
-                            }
-                            #Sponser {
-                                height: auto;
-                            }
-                            #Sponser .nav2 {
-                                height: auto;
-                                max-width: 95%;
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            #Sponser .nav2 img {
-                                width: 35%;
-                                height: 100px;
-                                margin: 10px;
-                            }
-                            #Sponser h1 {
-                                margin-bottom: 15px;
-                            }
-                            #footer {
-                                height: auto;
-                            }
-                            #footer .nav3 {
-                                font-size: 100%;
-                                padding: 10px;
-                            }
-                        }
-                        
-                        @media screen and (max-width: 1077px) and (min-width:625px) {
-                            #Ourmission {
-                                height: 40%;
-                            }
-                            #Ourmission h1 {
-                                padding: 20px;
-                            }
-                            .mission {
-                                display: flex;
-                                flex-direction: column;
-                            }
-                            .mission .cards {
-                                height: 163px;
-                                width: 90vw;
-                                margin: auto;
-                                margin-bottom: 10px;
-                            }
-                            .mission .cards h3 {
-                                width: 90vw;
-                            }
-                            .mission .nav1 {
-                                position: relative;
-                                bottom: 45px;
-                            }
-                            .mission .nav1 .cardbox img {
-                                height: 145px;
-                                width: 133px;
-                            }
-                            .mission .nav1 .content {
-                                width: 70vw;
-                                margin: 3%;
-                                text-align: center;
-                            }
-                            #Sponser .nav2 {
-                                height: 187px;
-                                max-width: 833px;
-                                margin: auto;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                            }
-                            #Sponser .nav2 img {
-                                width: 60%;
-                                height: 60%;
-                                margin: 3%;
-                            }
-                        }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Mochiy+Pop+P+One&family=Roboto:wght@500&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@500&family=Supermercado+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 67px;
+    display: flex;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+.menu img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    left: 13px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 46px;
+}
+
+.logo h2 {
+    margin: 13px;
+    padding-top: 7px;
+}
+
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.close img {
+    position: absolute;
+    right: 25px;
+    height: 60%;
+    width: 8%;
+    top: 25%;
+    display: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#introimage {
+    background: yellow;
+    height: 300px;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#introimage .slogan {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Supermercado One', cursive;
+}
+
+#introimage .slogan1 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Supermercado One', cursive;
+    opacity: 500;
+    margin: 3px;
+}
+
+#Ourmission {
+    background: rgba(213, 243, 213, 0.781);
+    height: 330px;
+    width: 100%;
+}
+
+#Ourmission h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 5px;
+    color: red;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    width: 20rem;
+    border: 10px solid black;
+    border-radius: 10px;
+    margin: auto 10px;
+}
+
+.cards h3 {
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Supermercado One', cursive;
+    /* width: 100vw; */
+}
+
+.nav1 {
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.cardbox img {
+    width: 133px;
+    height: 171px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    margin: 3px 20px;
+    z-index: 0;
+}
+
+.content {
+    /* border: 2px solid red; */
+    width: 239px;
+    height: 51px;
+    position: relative;
+    top: 54px;
+    font-size: 20px;
+    display: flex;
+    left: 10px;
+    font-family: 'Supermercado One', cursive;
+}
+
+#Sponser {
+    background: rgb(233, 205, 153);
+}
+
+#Sponser h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    font-family: 'Supermercado One', cursive;
+    font-size: 40px;
+    color: red;
+}
+
+#Sponser .nav2 {
+    height: 187px;
+    max-width: 840px;
+    margin: auto;
+}
+
+#Sponser .nav2 img {
+    width: 130px;
+    height: 130px;
+    margin: 40px;
+}
+
+#footer {
+    background: gray;
+    height: auto;
+}
+
+#footer .nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 235px) {
+    html {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .container {
+        position: absolute;
+        display: flex;
+        left: 5%;
+    }
+    #navbar ul {
+        display: none;
+    }
+    .cards {
+        width: 84%;
+        /* font-size: ;s */
+        position: relative;
+        left: 100%;
+    }
+    .cardbox img {
+        width: 50%;
+        height: 100%;
+    }
+    .content {
+        position: relative;
+        top: 0px;
+        left: -7px;
+    }
+    #Sponser .nav2 {
+        display: flex;
+        width: 90%;
+        overflow: auto;
+    }
+    #Sponser .nav2 img {
+        height: 150px;
+        width: 300px;
+        margin: auto 10px;
+    }
+    .mission {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .menu img {
+        display: inline;
+        z-index: 10;
+    }
+    .close img {
+        display: none;
+        z-index: 11;
+    }
+    #footer .nav3 {
+        font-size: 100%;
+        text-align: center;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 235px) {
+    html {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #navbar ul {
+        display: none;
+    }
+    #navbar ul li {
+        right: 0;
+        position: relative;
+        top: 0%;
+        width: 50%;
+        padding: 10;
+    }
+    .menu img {
+        display: inline;
+        z-index: 10;
+    }
+    .close img {
+        display: none;
+        z-index: 9;
+    }
+    .cards {
+        width: 90%;
+        margin: 2% 2%;
+    }
+    .cardbox img {
+        width: 60%;
+        height: 60%;
+    }
+    .cardbox {
+        height: 150%;
+    }
+    .content {
+        left: 0px;
+    }
+    #Sponser .nav2 {
+        display: flex;
+        width: 90%;
+        overflow: auto;
+    }
+    #Sponser .nav2 img {
+        height: 150px;
+        width: 300px;
+        margin: auto 10px;
+    }
+    .mission {
+        display: flex;
+        flex-direction: column;
+    }
+    #Ourmission {
+        height: auto;
+    }
+    #footer .nav3 {
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+
+/* Desktop responsive   */
+
+@media screen and (max-width:625px) and (min-width: 429px) {
+    .container {
+        width: 96%;
+        font-size: 15px;
+        left: 10px;
+    }
+    #navbar ul {
+        right: 5%;
+        position: absolute;
+        top: 35%;
+    }
+    #navbar ul li {
+        font-size: 15px;
+        padding: 3px;
+    }
+    #Ourmission {
+        height: auto;
+        width: 100%;
+    }
+    #Ourmission h1 {
+        padding: 5%;
+    }
+    .mission {
+        flex-direction: column;
+    }
+    .cards {
+        width: 90%;
+        margin: 10px 3%;
+    }
+    #Sponser {
+        height: auto;
+    }
+    #Sponser .nav2 {
+        height: auto;
+        max-width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Sponser .nav2 img {
+        width: 35%;
+        height: 100px;
+        margin: 10px;
+    }
+    #Sponser h1 {
+        margin-bottom: 15px;
+    }
+    #footer {
+        height: auto;
+    }
+    #footer .nav3 {
+        font-size: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1077px) and (min-width:625px) {
+    #Ourmission {
+        height: 40%;
+    }
+    #Ourmission h1 {
+        padding: 20px;
+    }
+    .mission {
+        display: flex;
+        flex-direction: column;
+    }
+    .mission .cards {
+        height: 163px;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .mission .cards h3 {
+        width: 90vw;
+    }
+    .mission .nav1 {
+        position: relative;
+        bottom: 45px;
+    }
+    .mission .nav1 .cardbox img {
+        height: 145px;
+        width: 133px;
+    }
+    .mission .nav1 .content {
+        width: 70vw;
+        margin: 3%;
+        text-align: center;
+    }
+    #Sponser .nav2 {
+        height: 187px;
+        max-width: 833px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Sponser .nav2 img {
+        height: 60%;
+        margin: 3%;
+    }
+}
