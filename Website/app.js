@@ -1,10 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const bodyparser = require('body-parser');
 const app = express()
 const mongoose = require('mongoose');
 const json = require('express');
-mongoose.connect("mongodb+srv://Harsh760781:12345yuiop@cluster0.7wegz.mongodb.net/contactDance", { useNewUrlParser: true, useUnifiedTopology: true });
-// mongoose.connect("mongodb://localhost:27017/contactDance");
+mongoose.connect(process.env.server_database, { useNewUrlParser: true, useUnifiedTopology: true });
+
 // 
 // Define mongoose Schema......
 
@@ -60,12 +61,3 @@ let port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log("The website is started successfully");
 });
-
-// app.listen(80, () => {
-//     console.log("The website is started successfully on 80");
-// });
-
-// app.get("/", (req,res) => {
-//     res.send('')
-// });
-// app.listen(3000)
