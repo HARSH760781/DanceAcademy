@@ -5,7 +5,8 @@ const app = express()
 const mongoose = require('mongoose');
 const json = require('express');
 mongoose.connect(process.env.server_database, { useNewUrlParser: true, useUnifiedTopology: true });
-
+// console.log(process.env.user);
+// console.log(process.env.pass);
 // 
 // Define mongoose Schema......
 
