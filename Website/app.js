@@ -4,7 +4,7 @@ const bodyparser = require('body-parser');
 const app = express()
 const mongoose = require('mongoose');
 const json = require('express');
-mongoose.connect(process.env.server_database, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://Harsh760781:12345yuiop@cluster0.7wegz.mongodb.net/contactDance', { useNewUrlParser: true, useUnifiedTopology: true });
 // console.log(process.env.user);
 // console.log(process.env.pass);
 // 
